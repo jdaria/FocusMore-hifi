@@ -4,7 +4,7 @@ import dash_bootstrap_components as dbc
 
 import pandas as pd
 
-from app import app
+from app import app, server
 from apps import app_usage, working_time, suggestion, index_page
 
 SIDEBAR_STYLE = {
