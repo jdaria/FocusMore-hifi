@@ -32,7 +32,7 @@ layout = dbc.Container(
                                         html.Li(
                                             "suggest the best working condition and let you know what apps to use less."
                                         ),
-                                    ], style={"marginLeft": "5%"}
+                                    ]
                                 ),
                             ], style={"marginTop": "10%", "marginLeft": "5%"}
                         )
@@ -105,7 +105,7 @@ layout = dbc.Container(
                                         ),
                                     ]
                                 )
-                            ]
+                            ], style={"marginLeft":"5%"}
                         )
                     ],
                     width=8,
